@@ -20,4 +20,11 @@ let randomNumber = 0;
 btn.addEventListener("click", (event) => {
   randomNumber = Math.floor(Math.random() * 100);
   h1.innerText = randomNumber;
+  for (let i = 0; i < numCell.length; i++) {
+    for (let i = 0; i < cell.length; i++) {
+      if (parseInt(numCell[i].innerText) === randomNumber) {
+        cell[i].classList.add("numberExtract");
+      }
+    }
+  }
 });
