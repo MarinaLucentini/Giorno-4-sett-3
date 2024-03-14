@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  background-color: beige;
+  width: 75%;
+  margin-inline: auto;
+  margin-top: 0.5em;
+}
+h1,
+p {
+  display: inline-block;
+  margin: 1em;
+}
+button {
+  width: 150px;
+  margin-inline: 7em;
+  height: 50px;
+  margin-block: 1em;
+  background-color: orangered;
+  font-family: inherit;
+  color: bisque;
+  font-weight: 800;
+}
+/* header */
+.conteiner {
+  background-color: beige;
+  width: 75%;
+  margin-inline: auto;
+  margin-block: 1em;
+  padding: 0.5em;
+}
+.celle-style {
+  border: 1px solid black;
+  width: 5%;
+  height: 50px;
+  margin: 0.3em;
+  display: inline-block;
+  text-align: center;
+}
+.celle-style-h3 {
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+}
+#Area-tabellone {
+  display: none;
+}
+.numberExtract {
+  border: 1px solid violet;
+}
